@@ -1,5 +1,5 @@
 # 👨🏽‍💻🚀 Portfolio
-### QA MANUAL
+### QA MANUAL Y DEVELOPER JR
 
 Este es el inicio de mi carrera profesional
 
