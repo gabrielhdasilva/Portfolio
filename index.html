@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#cursos" onclick="seleccionar(this)">CURSOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                          </ul>
+                          
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/gabrieldasilva/"><i class="fa-brands fa-linkedin"></i><a>
+                                <a href="https://github.com/gabrielhdasilva"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://instagram.com/gabrielhdasilva"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Portfolio <span></span> Gabriel Da Silva</h2>
+                <a href="#portfolio">Ir al Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/gabi.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Gabriel Da Silva</span> </h2>
+            <h3>QA Manual y Desarrollador Frontend</h3>
+            <p>Estoy buscando mi primera oportunidad de trabajo formal en el mundo IT.
+                Me desarrollo principalmente como QA manual y automation, si bien estoy comenzando a dar mis primeros pasos, estoy enfocado en aprender y absorber todo tipo de conocimientos que sumen a mi carrera profesional.
+                Soy muy dedicado en todo lo que hago y lo que me propongo lo cumplo. Mis puntos fuertes son la disciplina y perseverancia. 
+                Me apasiona trabajar en equipo, la buena comunicacion es la base fundamental para que sucedan cosas extraordinarias.
+                Adquiri esta filosofia de trabajo desde niño practicando diferentes deportes y desde mi lugar que me toque, puedo aportar experiencias positivas para un objetivo en comun.
+            </p>
+
+            <a href="CV/CV Gabriel Da Silva.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>QA Manual</p>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Xampp</p>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Postman</p>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Jira</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Scrum</p>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Metodología Ägil</p>
+            </div>
+        </div>
+            
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>HTML</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>JavaScript</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Python</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>SQL</p>
+            </div>
+        </div>
+    </div>
+<br>
+
+    
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <br>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/john&joe.jpg" alt="">
+                <div class="info">
+                    <button class="button"
+                        onclick="location.href='img/Proyectos/Proyecto Final QA Gabriel Da Silva.pdf'">Ver
+                        proyecto</button>
+
+                </div>
+            </div>
+       
+    </section>
+
+            
+    <!-- SECCION CURSOS -->
+    <section id="cursos">
+        <h3 class="titulo-seccion">CURSOS</h3>
+        <br>
+        <br>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <img src="./img/qamanualcoder.png" alt="">
+                <div class="info">
+                    <a href="./img/qamanual.png" class="button"
+                        target="_blank">QA Manual</a>
+                </div>
+            </div>
+           
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <img src="./img/qa_logo_wordmark.png" alt="">
+                <div class="info">  
+                    <a href="./img/qa-avanzadocertificado-curso.png" class="button"
+                        target="_blank">QA Avanzado</a>
+                </div>
+            </div>
+            
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <img src="./img/JavaScript-Logo.png" alt="">
+                <div class="info">  
+                    <a href="./img/JavaScript.png" class="button"
+                        target="_blank">Full Stack JavaScript/Node Js</a>
+                </div>
+            </div>
+           
+            <div class="proyecto">
+                <div class="overlay">
+                </div>
+                <img src="./img/html.jpg" alt="">
+                <div class="info">  
+                    <a href="./img/desarrolloweb.png" class="button"
+                        target="_blank">Full Stack Python</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+
+        <div class="contenedor-form">
+            <form id="formulario" action="mailto:dasilvahgabriel@gmail.com" method="get">
+                <!-- Aquí está el botón de envío que deseas mantener -->
+                <button type="submit" class="btn-enviar">Contacto</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2024</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/gabrieldasilva/"><i class="fa-brands fa-linkedin"></i><a>
+                    <a href="https://github.com/gabrielhdasilva"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/gabrielhdasilva"><i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
