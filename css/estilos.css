@@ -219,7 +219,7 @@
         /* *********************/
 
         .contenedor-skills {
-            background: linear-gradient(#172017cc, rgba(33, 16, 16, 0.8)), url("/imgs/setup.jpg");
+            background: linear-gradient(rgba(50, 47, 63, 0.7), rgba(0, 0, 0, .7)), url("/imgs/setup.jpg");
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
