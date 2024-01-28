@@ -16,7 +16,7 @@
         /* *********************/
 
         #inicio {
-            background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/a-que-se-dedica-qa-tester.jpg");
+            background: linear-gradient(rgba(50, 47, 63, 0.7), rgba(0, 0, 0, .7)), url("/imgs/qa-testing.jpg");
             background-size: cover;
             background-position: center center;
             height: 100vh;
@@ -41,7 +41,7 @@
 
         #inicio .contenido header .contenido-header h1 {
             text-align: center;
-            color: #50e5ff;
+            color: #54f47f;
         }
 
         #inicio .contenido header .contenido-header nav ul {
@@ -59,7 +59,7 @@
         }
 
         #inicio .contenido header .contenido-header nav ul li a:hover {
-            color: #50e5ff;
+            color: #54f47f;
         }
 
         #inicio .contenido header .contenido-header .redes a {
@@ -71,11 +71,11 @@
         }
 
         #inicio .contenido header .contenido-header .redes a:hover {
-            color: #50e5ff;
+            color: #54f47f;
         }
 
         #inicio .contenido header .contenido-header .seleccionado {
-            color: #50e5ff;
+            color: #54f47f;
         }
 
         #inicio .contenido .presentacion {
@@ -104,7 +104,7 @@
 
         #inicio .contenido .presentacion h2 span {
             font-size: 25px;
-            color: #50e5ff;
+            color: #54f47f;
         }
 
         #inicio .contenido .presentacion .descripcion {
@@ -128,7 +128,7 @@
         }
 
         #inicio .contenido .presentacion a:hover {
-            background-color: #50e5ff;
+            background-color: #54f47f;
         }
 
         #icono-nav {
@@ -179,7 +179,7 @@
         }
 
         #sobremi .sobremi h2 span {
-            color: #50e5ff;
+            color: #54f47f;
         }
 
         #sobremi .sobremi h3 {
@@ -209,7 +209,7 @@
         }
 
         #sobremi .sobremi a:hover {
-            background-color: #50e5ff;
+            background-color: #54f47f;
             color: #fff;
         }
 
@@ -219,7 +219,7 @@
         /* *********************/
 
         .contenedor-skills {
-            background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, 0.8)), url("img/fondo-skills.jpg");
+            background: linear-gradient(#172017cc, rgba(33, 16, 16, 0.8)), url("/imgs/setup.jpg");
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
@@ -369,7 +369,7 @@
             position: absolute;
             left: 0px;
             background-color: rgba(0, 0, 0, 0.8);
-            color: #ff5080;
+            color: #54f47f;
             width: 100%;
             padding: 10px;
             opacity: 0;
@@ -386,8 +386,8 @@
             display: inline-block;
             padding: 10px 20px;
             background-color: transparent;
-            border: 2px solid #007bff;
-            color: #007bff;
+            border: 2px solid #54f47f;
+            color: #54f47f;
             font-size: 16px;
             text-align: center;
             text-decoration: none;
@@ -396,7 +396,7 @@
         }
 
         .button:hover {
-            background-color: #007bff;
+            background-color: #54f47f;
             color: #fff;
         }
 
@@ -459,7 +459,7 @@
             position: absolute;
             left: 0px;
             background-color: rgba(0, 0, 0, 0.8);
-            color: #50e5ff;
+            color: #54f47f;
             width: 100%;
             padding: 10px;
             opacity: 0;
@@ -476,8 +476,8 @@
             display: inline-block;
             padding: 10px 20px;
             background-color: transparent;
-            border: 2px solid #007bff;
-            color: #007bff;
+            border: 2px solid #54f47f;
+            color: #54f47f;
             font-size: 16px;
             text-align: center;
             text-decoration: none;
@@ -488,7 +488,7 @@
         }
 
         #cursos .fila .proyecto .info .button:hover {
-            background-color: #007bff;
+            background-color: #54f47f;
             color: #fff;
         }
 
@@ -562,7 +562,7 @@
         }
 
         #contacto .btn-enviar:hover {
-            background-color: #50e5ff;
+            background-color: #54f47f;
             color: #fff;
         }
 
