@@ -72,17 +72,4 @@ function scrollToDescripcion() {
   const descripcionSection = document.getElementById('descripcion');
   descripcionSection.scrollIntoView({ behavior: 'smooth' });
 }
-function redirectToCertification(certificacion) {
-  switch (certificacion) {
-      case 'certificacion1':
-          window.location.href = "";
-          break;
-      case 'certificacion2':
-          window.location.href = "";
-          break;
-      
 
-      default:
-          break;
-  }
-}
